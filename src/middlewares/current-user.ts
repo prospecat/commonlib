@@ -7,6 +7,7 @@ interface UserPayload {
   password: string;
   name: string;
   company: string;
+  stripeCustomerId: string;
   emailCode?: string;
   validated?: boolean;
   avatar?: string;
